@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="main">
+      <UniqueIdentifier>{9d9ba3c9-01cb-4f13-92bd-11f253b61522}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cc">
+      <Filter>main</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.hpp">
+      <Filter>main</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\classes\CGameRules.hpp" />
+    <ClInclude Include="sdk\classes\CCryAction.hpp" />
+    <ClInclude Include="sdk\classes\CPlayer.hpp" />
+    <ClInclude Include="sdk\classes\CActorSystem.hpp" />
+    <ClInclude Include="sdk\classes\CFeedbackSystem.hpp" />
+    <ClInclude Include="sdk\interfaces\IGameFrameworkListener.hpp" />
+    <ClInclude Include="sdk\connect.hpp" />
+    <ClInclude Include="sdk\helpers\helpers.hpp" />
+    <ClInclude Include="sdk\listeners\CFunctionsListener.hpp" />
+    <ClInclude Include="sdk\managers\CSleepManager.hpp" />
+  </ItemGroup>
+</Project>
